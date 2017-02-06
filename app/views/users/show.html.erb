@@ -13,7 +13,7 @@
 <p>
   <% unless @user.microposts.blank? %>
     <strong>Micropost #1:</strong>
-    <% @user.microposts.first.content%>
+    <%= @user.microposts.first.content%>
   <% end %>
 </p>
 
